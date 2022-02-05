@@ -21,3 +21,4 @@ function GetCookie() {
   }
 }
 GetCookie();
+$notification.post("脚本执行完毕");
