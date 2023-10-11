@@ -1,1 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T14:28:29.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.0.2" etag="uKu7il_VAgRwvYvFEEDy" type="github"><diagram name="第 1 页" id="mqOq0_yAt_1xM4sD6kAV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-10-11T14:57:09.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="yUTfFRJXarZLcX1PmB9o" version="21.0.2" type="github">
+  <diagram name="第 1 页" id="mqOq0_yAt_1xM4sD6kAV">
+    <mxGraphModel dx="1475" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oIo35whci3rF9JnissCp-1" value="&lt;font style=&quot;font-size: 34px;&quot;&gt;&lt;b style=&quot;font-size: 34px;&quot;&gt;JSP文件解密流程&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=34;" vertex="1" parent="1">
+          <mxGeometry x="480" y="60" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oIo35whci3rF9JnissCp-2" target="oIo35whci3rF9JnissCp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-2" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;开始&lt;/b&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oIo35whci3rF9JnissCp-3" target="oIo35whci3rF9JnissCp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-3" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;木马文件和密文数据包&lt;/b&gt;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="502.19" y="260" width="230.62" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oIo35whci3rF9JnissCp-5" target="oIo35whci3rF9JnissCp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oIo35whci3rF9JnissCp-5" target="oIo35whci3rF9JnissCp-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oIo35whci3rF9JnissCp-5" target="oIo35whci3rF9JnissCp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-5" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;JAVA_AES_BASE64解密&lt;/b&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="506.25" y="572.5" width="222.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oIo35whci3rF9JnissCp-6" target="oIo35whci3rF9JnissCp-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="906" y="1285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-6" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;JAVA_AES_RAW解密&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="795.94" y="570" width="220" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oIo35whci3rF9JnissCp-10" target="oIo35whci3rF9JnissCp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;取http报文中“=”后面的参数值&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="940" width="207.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-12" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;利用密钥对密文进行ECB模式的AES解密&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358.75" y="1240" width="206.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oIo35whci3rF9JnissCp-13" target="oIo35whci3rF9JnissCp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;在木马文件中提取出密钥&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="521.25" y="420" width="192.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oIo35whci3rF9JnissCp-19" target="oIo35whci3rF9JnissCp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-19" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;http请求包&lt;/b&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="740" width="222.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-20" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;http响应包&lt;/b&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="740" width="222.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oIo35whci3rF9JnissCp-24" target="oIo35whci3rF9JnissCp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oIo35whci3rF9JnissCp-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;进行URL解码和BASE64解码&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="1090" width="207.5" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
